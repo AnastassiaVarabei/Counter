@@ -43,7 +43,7 @@ function App() {
           onIncrement={handleIncrement}
           onDecrement={handleDecrement}
           onReset={handleReset}
-          сounters={counters}
+          counters={counters}
         />
       </main>
     </div>
