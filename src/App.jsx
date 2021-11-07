@@ -37,7 +37,7 @@ function App() {
   return (
     <div className="col-lg-8 mx-auto p-3 py-md-5">
       <main>
-        <NavBar />
+        <NavBar totalItems={counters.reduce((a, c) => a + c.value, 0)} />
         <Counters
           onDelete={handleDelete}
           onIncrement={handleIncrement}
